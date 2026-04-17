@@ -15,7 +15,7 @@ const buttonVariants = cva(
         secondary: "bg-surface-2 text-foreground hover:bg-surface-2/80",
         ghost: "hover:bg-surface-2 text-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-gradient-live text-primary-foreground shadow-glow hover:shadow-[0_0_60px_hsl(var(--primary)/0.5)] hover:scale-[1.02]",
+        hero: "bg-gradient-live text-primary-foreground shadow-cta hover:shadow-[0_15px_50px_-10px_hsl(var(--primary)/0.7)] hover:brightness-110 hover:-translate-y-0.5",
         premium: "bg-gradient-premium text-premium-foreground shadow-premium hover:scale-[1.02]",
         rival: "bg-gradient-rival text-rival-foreground hover:scale-[1.02]",
         live: "bg-primary/15 text-primary border border-primary/30 hover:bg-primary/25",
